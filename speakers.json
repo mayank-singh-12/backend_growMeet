@@ -1,0 +1,27 @@
+[
+  {
+    "name": "John Bill",
+    "role": "Senior Software Developer",
+    "imgUrl": "https://placehold.co/100x100/blue/white"
+  },
+  {
+    "name": "Sarah johnson",
+    "role": "Marketing Manager",
+    "imgUrl": "https://placehold.co/100x100/blue/white"
+  },
+  {
+    "name": "Micheal Brown",
+    "role": "SEO Specialist",
+    "imgUrl": "https://placehold.co/100x100/blue/white"
+  },
+  {
+    "name": "Tanay Pratap",
+    "role": "MERN Specialist",
+    "imgUrl": "https://placehold.co/100x100/blue/white"
+  },
+  {
+    "name": "Andrew Price",
+    "role": "3D Art Director",
+    "imgUrl": "https://placehold.co/100x100/blue/white"
+  }
+]
