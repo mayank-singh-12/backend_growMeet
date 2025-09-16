@@ -21,13 +21,13 @@ initializeDatabase();
 
 // SEEDING DATA
 
-const hostsJson = fs.readFileSync("./hosts.json");
-const speakersJson = fs.readFileSync("./speakers.json");
-const eventsJson = fs.readFileSync("./events.json");
+// const hostsJson = fs.readFileSync("./hosts.json");
+// const speakersJson = fs.readFileSync("./speakers.json");
+// const eventsJson = fs.readFileSync("./events.json");
 
-const hostData = JSON.parse(hostsJson);
-const speakersData = JSON.parse(speakersJson);
-const eventsData = JSON.parse(eventsJson);
+// const hostData = JSON.parse(hostsJson);
+// const speakersData = JSON.parse(speakersJson);
+// const eventsData = JSON.parse(eventsJson);
 
 async function addNewHost(hostData) {
   try {
