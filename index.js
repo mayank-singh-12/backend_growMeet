@@ -100,7 +100,6 @@ async function getEventById(eventId) {
       { path: "host" },
       { path: "speakers" },
     ]);
-    console.log(event);
     return event;
   } catch (error) {
     console.log("Error in db while querying Event by id.", error);
@@ -116,7 +115,6 @@ app.get("/events/:eventId", async (req, res) => {
     } else {
       res.status(200).json(eventData);
     }
-    eventData;
   } catch {
     res.status(500).json({ error: "Error occured while fetching Event data." });
   }
